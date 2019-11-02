@@ -74,7 +74,7 @@
   width: 100%;
   background-image: url('./slideOne.jpg');
   background-size: cover;
-  margin: 8em 0em;
+  margin: 4em 0em;
 }
 
 .bottomContent {
@@ -101,7 +101,7 @@ h1 {
 /***************************** testimonials APP STYLING ******************************/
 
 .contentStyle {
-  margin: 8em 0em;
+  margin: 4em 0em;
 }
 
 .commentStyle {
