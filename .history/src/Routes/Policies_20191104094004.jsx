@@ -3,6 +3,7 @@ import React from 'react';
 class Policies extends React.Component {
     render () {
         return (
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <div className='mainContainer'>
                 <div className='rowCentering'>
                     <div className='contentCentering contentStyle'>
@@ -14,7 +15,7 @@ class Policies extends React.Component {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quae, autem iste aut architecto laborum accusamus similique excepturi sunt voluptates doloribus dignissimos recusandae beatae cupiditate, culpa, incidunt ut dolorem consectetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quae, autem iste aut architecto laborum accusamus similique excepturi sunt voluptates doloribus dignissimos recusandae beatae cupiditate, culpa, incidunt ut dolorem consectetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quae, autem iste aut architecto laborum accusamus similique excepturi sunt voluptates doloribus dignissimos recusandae beatae cupiditate, culpa, incidunt ut dolorem consectetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quae, autem iste aut architecto laborum accusamus similique excepturi sunt voluptates doloribus dignissimos recusandae beatae cupiditate, culpa, incidunt ut dolorem consectetur.</p>
                     </div>
                 </div> 
-            </div>  
+            </div>
         )
     }
 }

@@ -4,6 +4,7 @@ import '../styles/App.css';
 class Recruitment extends React.Component {
     render () {
         return (
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <div className='mainContainer'>
                 <div className='rowCentering'>
                     <div className='contentCentering pictureBackground'>
@@ -32,7 +33,8 @@ class Recruitment extends React.Component {
                                 </form>
                         </div>
                     </div>
-                </div>    
+                </div> 
+            </meta>    
         )
     }
 }

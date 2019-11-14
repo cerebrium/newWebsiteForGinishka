@@ -1,33 +1,5 @@
-/***************************** MOBILE FRIENDLY ******************************/
-@media screen and (min-width: 600px) and (max-width: 900px) {
-  .App {
-    text-align: center;
-  }
-  
-  .mainContainer {
-    min-width: 100vw;
-  }
-  
-  .navContainer {
-    z-index: 1;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: space-evenly;
-    position: fixed; /* Make it stick, even on scroll */
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 7%;
-    background: white;
-  }
-  
-  .nav {
-    text-decoration: none;
-    color: rgb(29, 76, 114);
-    font-size: 1.3em;
-  }
-}
+
+/* <meta name="viewport" content="width=device-width, initial-scale=1"> */
 
 
 
