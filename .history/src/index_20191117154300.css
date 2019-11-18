@@ -1,9 +1,7 @@
 .mainBody {
   margin: 0;
   background: red;
-  position: relative;
   min-height: 100vh;
-  transform: translateY(auto);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -15,10 +13,15 @@
     animation-name: rudolphs_animation;
     animation-duration: 4s;
   }
+  #root {
+    min-width: 100vw;
+    min-height: 100vh;
+    opacity: 2;
+  }
   /* h1 {
     font-size: 40px;
     font-family: 'Mountains of Christmas', cursive;
-    position: relative;
+    position: absolute;
     color: white;
     left: 42vw;
     top: 10vh;
@@ -53,12 +56,12 @@
   }
   
   .snowflake1 {
-    opacity: 1;
+    opacity: 0;
     position: absolute;
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
   }
   .snowflake2 {
@@ -68,7 +71,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
   }
@@ -79,7 +82,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -90,7 +93,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -101,7 +104,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
   }
@@ -112,7 +115,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 4s;
   }
@@ -123,7 +126,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -134,7 +137,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -145,9 +148,9 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
-    animation-delay: 10s;
+    animation-delay: 1s;
   }
   .snowflake10 {
     opacity: 1;
@@ -156,9 +159,9 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-delay: 20s;
+    animation-delay: 2s;
   }
   .snowflake11 {
     opacity: 1;
@@ -167,9 +170,9 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-delay: 40s;
+    animation-delay: 4s;
   }
   .snowflake12 {
     opacity: 1;
@@ -178,9 +181,9 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s0;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-delay: 30s;
+    animation-delay: 3s;
   }
   .snowflake13 {
     opacity: 1;
@@ -189,9 +192,9 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-delay: 10s;
+    animation-delay: 1s;
   }
   .snowflake14 {
     opacity: 1;
@@ -200,9 +203,9 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-delay: 20s;
+    animation-delay: 2s;
   }
   .snowflake15 {
     opacity: 1;
@@ -211,9 +214,9 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-delay: 30s;
+    animation-delay: 3s;
   }
   .snowflake16 {
     opacity: 1;
@@ -222,9 +225,9 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-delay: 10s;
+    animation-delay: 1s;
   }
   
   .snowflake17 {
@@ -234,7 +237,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
   }
   .snowflake18 {
@@ -245,7 +248,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
   }
@@ -257,7 +260,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -269,7 +272,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -281,7 +284,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
   }
@@ -291,7 +294,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 4s;
   }
@@ -302,7 +305,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -313,7 +316,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -324,7 +327,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
   }
@@ -335,7 +338,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -346,7 +349,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 4s;
   }
@@ -357,7 +360,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -368,7 +371,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
   }
@@ -379,7 +382,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -390,7 +393,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -401,7 +404,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
   }
@@ -423,7 +426,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 4s;
   }
@@ -434,7 +437,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 10s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-delay: 6s;
   }
@@ -445,7 +448,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 7s;
   }
@@ -467,7 +470,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -478,7 +481,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 13s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-delay: 5s;
   }
@@ -489,7 +492,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 13s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-delay: 6s;
   }
@@ -500,7 +503,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 13s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 4s;
   }
@@ -511,7 +514,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 13s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -522,7 +525,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 13s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -533,7 +536,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 13s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-delay: 5s;
   }
@@ -544,7 +547,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 13s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -555,7 +558,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 13s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 6s;
   }
@@ -566,7 +569,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 17s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 9s;
   }
@@ -577,7 +580,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 17s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-delay: 15s;
   }
@@ -589,7 +592,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 17s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -601,7 +604,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 17s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-delay: 4s;
   }
@@ -613,7 +616,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 17s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -625,7 +628,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 17s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -636,7 +639,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 17s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -647,7 +650,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 17s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
   }
   .snowflake55 {
@@ -657,7 +660,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 0s;
   }
@@ -668,7 +671,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -679,7 +682,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-delay: 4s;
   }
@@ -690,7 +693,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -701,7 +704,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 4s;
   }
@@ -712,7 +715,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -723,7 +726,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
   }
@@ -734,7 +737,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
   }
@@ -745,7 +748,7 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
   }
@@ -756,16 +759,63 @@
     width: 20px;
     height: 20px;
     animation-name: snowflakes;
-    animation-duration: 30s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
+  }
+  
+  
+  @keyframes rudolphs_animation {
+    0% {
+      font-size: 0px;
+      color: white;
+    }
+    50% {
+      font-size: 30px;
+      color: white;
+    }
+    75% {
+      font-size: 100px;
+      color: white;
+    }
+    100% {
+      font-size: 40px;
+      color: white;
+    }
+  } 
+  
+  @keyframes rudolphs_hiding {
+    0% {
+      top: 100vh;
+    }
+    10% {
+      top: 55vh;
+    }
+    30% {
+      top: 55vh;
+    }
+    50% {
+      top: 55vh;
+    }
+    70% {
+      top: 90vh;
+    }
+    80% {
+      top: 95vh;
+    }
+    90% {
+      top: 100vh;
+    }
+    100% {
+      visibility: hidden;
+    }
   }
   
   @keyframes snowflakes {
     0% {
       visibility: visible;
       z-index: -1;
-      opacity: 0;
+      opacity: 1;
       top: 0%;
     }
     1% {
@@ -774,13 +824,45 @@
       opacity: 0;
       top: 1%;
     }
-
     100% {
       visibility: visible;
       z-index: -1;
+      opacity: 1;
       top: 100%;
     }
   }
+  
+  /* @keyframes candycane {
+    0% {
+      visibility: visible;
+      opacity: 1;
+      top: 100vh;
+    }
+    10% {
+      opacity: 0;
+      top: 100vh;
+    }
+    30% {
+      top: 90vh;
+    }
+    50% {
+      top: 85vh;
+      z-index: 1;
+    }
+    70% {
+      top: 90vh;
+      z-index: 1;
+    }
+    90% {
+      top: 100vh;
+      z-index: 1;
+    }
+    100% {
+      top: 100vh;
+      visibility: hidden;
+    }
+  } */
+  
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
