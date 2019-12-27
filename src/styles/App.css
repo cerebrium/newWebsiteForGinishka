@@ -1,5 +1,9 @@
 /***************************** MOBILE FRIENDLY ******************************/
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 80%;
+  }
+
   .App {
     text-align: center;
   }
@@ -20,6 +24,7 @@
     padding: 0;
     height: 7%;
     background: white;
+    font-size: 60%;
   }
   
   .nav {
@@ -162,10 +167,24 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 5%;
+  padding-top: 8%;
 }
 
 .myTextArea{
   width: 90vh;
   height: 50vh;
+}
+
+.myForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/***************************** Recruitment Page Styling ******************************/
+.linkButton {
+  text-decoration: none;
+  color: black;
 }

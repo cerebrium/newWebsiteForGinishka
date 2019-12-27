@@ -35,7 +35,7 @@ import '../styles/App.css'
             return (
                 <div className='contactPageMain'>
                     <h1>Contact Us!</h1>
-                    <form onSubmit={this.submitForm} action='https://formspree.io/meqelkae' method="POST">
+                    <form onSubmit={this.submitForm} action='https://formspree.io/meqelkae' method="POST" className='myForm'>
                         <label >Name:</label>{'  '}
                         <input type="text" name="name"/><br/>
                         <label>Email:</label>{'  '}

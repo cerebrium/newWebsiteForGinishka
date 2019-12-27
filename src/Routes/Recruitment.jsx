@@ -18,9 +18,9 @@ const Recruitment = () => {
     }
 
     var reRoute;
-    if (checkedBoxes.length === 4) {
+    if (checkedBoxes.length >= 4) {
         reRoute = (
-            <button><Link to='/contact'>Contact Us Today!</Link></button>
+            <button><Link to='/contact' className='linkButton'>Contact Us Today!</Link></button>
         )
     } else {
         reRoute = (
@@ -35,7 +35,7 @@ const Recruitment = () => {
                     <h1>Recruitment</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quae, autem iste aut architecto laborum accusamus similique excepturi sunt voluptates doloribus dignissimos recusandae beatae cupiditate, culpa, incidunt ut dolorem consectetur.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quae, autem iste aut architecto laborum accusamus similique excepturi sunt voluptates doloribus dignissimos recusandae beatae cupiditate, culpa, incidunt ut dolorem consectetur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quae, autem iste aut architecto laborum accusamus similique excepturi sunt voluptates doloribus dignissimos recusandae beatae cupiditate, culpa, incidunt ut dolorem consectetur.</p>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quae, autem iste aut architecto laborum accusamus similique excepturi sunt voluptates doloribus dignissimos recusandae beatae cupiditate, culpa, incidunt ut dolorem consectetur.</p> */}
                 </div>
             </div>    
                 <div className='rowCentering'>
